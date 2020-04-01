@@ -1,0 +1,24 @@
+Criar Projeto
+	yarn init -y
+Instalar Express
+	yarn add express
+
+cria a pasta src
+cria o arquivo server.js
+	instanciando express 
+	cria a variavel server e define a porta do listen
+
+yarn add nodemon -D
+
+package.json
+"scripts": {
+    "dev": "nodemon src/server.js"
+  },
+
+criar arquivo routes e instancia express, e direciona a rota para o server.
+
+yarn add mongoose.
+	configurar banco
+
+yarn add cors, adicionar a função de cors em server.
+	server.use(cors());
